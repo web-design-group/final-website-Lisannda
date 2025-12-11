@@ -1,0 +1,36 @@
+:root {
+  --font-size: 12px;
+  --base-padding: 280px;
+  --background-dark: 33, 33, 33;
+  --background-sun: #9c2b2f;
+
+  --white: #ffffff;
+
+  --base-space: 200px;
+}
+
+@media screen and (max-width: 1350px) {
+  :root {
+    --font-size: 11px;
+    --base-padding: 100px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  :root {
+    --font-size: 10px;
+    --base-padding: 75px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  :root {
+    --font-size: 10px;
+    --base-padding: 50px;
+  }
+}
+
+.container:has(.container) {
+  --bs-gutter-x: 1rem !important;
+  margin-left: var(--base-space);
+  margin-right: var(--base-space);
+}
