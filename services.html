@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StyleLab - Создай свой стиль</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/services.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <a href="index.html"><h1 class="logo">StyleLab</h1></a>
+        <nav class="nav">
+          <a href="about-us.html" class="nav-link">О компании</a>
+          <a href="services.html" class="nav-link">Услуги</a>
+          <a href="#" class="nav-link">Контакты</a>
+          <a href="#" class="nav-link">Личный кабинет</a>
+        </nav>
+      </div>
+    </header>
+    <section
+      class="description d-flex align-items-center position-relative row"
+    >
+      <div class="sun sun-first"></div>
+      <div class="d-flex flex-column gap-3 col-md-6">
+        <h1>УСЛУГИ</h1>
+        <p>
+          Стиль — это не просто одежда, а способ чувствовать себя уверенно, быть
+          собой и выражать настроение каждого дня.
+        </p>
+        <p>
+          В StyleLab мы создаём персональные решения, которые помогают раскрыть
+          индивидуальность. Здесь нет случайных рекомендаций — только то, что
+          действительно подходит вам: по цвету, фигуре, ритму жизни и
+          внутреннему ощущению.
+        </p>
+        <p>Ваш стиль — наш главный проект.</p>
+      </div>
+      <div class="position-relative col-md-6">
+        <div class="sun sun-second blend-burn"></div>
+        <div class="sun sun-second blend-darken"></div>
+        <img class="w-100" src="images/services/main.png" />
+      </div>
+    </section>
+    <section
+      class="test container d-flex flex-column align-items-center position-relative z-3"
+    >
+      <h1>Тест на тип внешности</h1>
+      <div class="row d-flex align-items-center flex-fill">
+        <div class="d-flex flex-column gap-3 col-md-6">
+          <p>
+            Пройди онлайн-анализ, чтобы определить свой цветотип, особенности
+            фигуры и стиль.
+          </p>
+          <div class="d-flex flex-column gap-1">
+            <p>
+              Тест основан на профессиональных методиках анализа внешности и
+              включает:
+            </p>
+            <p>
+              — определение цветотипа (палитра, контрастность, температура тона
+              кожи)
+            </p>
+            <p>— систему Кибби</p>
+            <p>— определение уровня контрастности</p>
+            <p>— методику «Тип внешности» Марии Трофимовой</p>
+            <p>— анализ по системе Animal Face</p>
+          </div>
+          <p class="fs-5">
+            После прохождения теста вы получите подробное описание вашего типа
+            внешности, палитру подходящих оттенков и общие рекомендации по
+            выбору одежды, макияжа и аксессуаров.
+          </p>
+          <button
+            type="button"
+            style="width: fit-content"
+            class="btn btn-dark rounded-0 text-transparent px-5 py-2"
+          >
+            Пройти тест
+          </button>
+        </div>
+        <div class="col position-relative d-flex col-md-6">
+          <div class="sun-second sun blend-burn"></div>
+          <div class="sun-second sun blend-darken"></div>
+          <div class="sun-third sun blend-burn"></div>
+          <div class="sun-third sun blend-darken"></div>
+          <div class="sun-fourth sun blend-burn"></div>
+          <div class="sun-fourth sun blend-darken"></div>
+          <div class="sun-fifth sun blend-burn"></div>
+          <div class="sun-fifth sun blend-darken"></div>
+          <div class="flex-fill d-flex">
+            <img
+              class="flex-fill w-100"
+              src="images/services/test/image.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="container d-flex flex-column gap-3 capsule position-relative z-2"
+    >
+      <div class="sun sun-first blend-burn z-3"></div>
+      <div class="sun sun-first blend-darken z-3"></div>
+      <h1 class="text-center">Капсульный гардероб</h1>
+      <div class="d-flex flex-column gap-5 py-5 content">
+        <div class="row">
+          <a
+            class="mx-1 d-flex flex-column col p-0"
+            data-type="image"
+            data-fslightbox="1"
+            href="images/services/capsule/image_1.png"
+          >
+            <img
+              class="flex-fill"
+              src="images/services/capsule/image_1.png"
+            />
+          </a>
+          <a
+            class="mx-1 d-flex flex-column col p-0"
+            data-type="image"
+            data-fslightbox="1"
+            href="images/services/capsule/image_2.png"
+          >
+            <img
+              class="flex-fill"
+              src="images/services/capsule/image_2.png"
+            />
+          </a>
+          <a
+            class="mx-1 d-flex flex-column col p-0"
+            data-type="image"
+            data-fslightbox="1"
+            href="images/services/capsule/image_3.png"
+          >
+            <img
+              class="flex-fill"
+              src="images/services/capsule/image_3.png"
+            />
+          </a>
+          <a
+            class="mx-1 d-flex flex-column col p-0"
+            data-type="image"
+            data-fslightbox="1"
+            href="images/services/capsule/image_4.png"
+          >
+            <img
+              class="flex-fill"
+              src="images/services/capsule/image_4.png"
+            />
+          </a>
+        </div>
+        <p>
+          Подбор универсальных вещей, которые легко сочетаются между собой.<br />Получи
+          готовый список покупок и визуальные образы.
+        </p>
+      </div>
+
+      <div class="d-flex justify-content-end">
+        <button
+          type="button"
+          style="width: fit-content"
+          class="btn btn-dark rounded-0 text-transparent px-5 py-2"
+        >
+          Приступим!
+        </button>
+      </div>
+    </section>
+    <section class="container d-flex flex-column gap-3 views position-relative">
+      <div class="sun blend-burn"></div>
+      <div class="sun blend-darken"></div>
+      <h1 class="text-center">Подбор образа</h1>
+      <div class="d-flex flex-column gap-3 py-5 content">
+        <div class="row">
+          <a
+            class="mx-1 d-flex flex-column col p-0"
+            data-fslightbox="2"
+            data-type="image"
+            href="images/services/views/image_1.png"
+          >
+            <img class="flex-fill" src="images/services/views/image_1.png" />
+          </a>
+          <a
+            class="mx-1 d-flex flex-column col p-0"
+            data-fslightbox="2"
+            data-type="image"
+            href="images/services/views/image_2.png"
+          >
+            <img class="flex-fill" src="images/services/views/image_2.png" />
+          </a>
+          <a
+            class="mx-1 d-flex flex-column col p-0"
+            data-fslightbox="2"
+            data-type="image"
+            href="images/services/views/image_3.png"
+          >
+            <img class="flex-fill" src="images/services/views/image_3.png" />
+          </a>
+        </div>
+        <p>
+          Для фотосессий, деловых встреч или повседневной жизни.<br />Наши
+          стилисты подберут идеальные сочетания одежды и аксессуаров. 
+        </p>
+      </div>
+
+      <div class="d-flex">
+        <button
+          type="button"
+          style="width: fit-content"
+          class="btn btn-dark rounded-0 text-transparent px-5 py-2"
+        >
+          Подобрать образ
+        </button>
+      </div>
+    </section>
+    <section
+      class="container d-flex flex-column gap-3 consultation position-relative"
+    >
+      <h1 class="text-center">Консультация онлайн</h1>
+      <div class="row position-relative">
+        <div class="sun sun-first"></div>
+        <div class="sun sun-second"></div>
+        <div class="point mx-1 d-flex flex-column col p-0 border-0">
+          <img
+            class="flex-fill"
+            src="images/services/consultation/image_1.png"
+          />
+          <p class="p-3">1. Выберите формат</p>
+        </div>
+        <div class="point mx-1 d-flex flex-column col p-0 border-0">
+          <img
+            class="flex-fill"
+            src="images/services/consultation/image_2.png"
+          />
+          <p class="p-3">2. Опишите задачу</p>
+        </div>
+        <div class="point mx-1 d-flex flex-column col p-0 border-0">
+          <img
+            class="flex-fill"
+            src="images/services/consultation/image_3.png"
+          />
+          <p class="p-3">3. Получите рекомендации</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end">
+        <button
+          type="button"
+          style="width: fit-content"
+          class="btn btn-dark rounded-0 text-transparent px-5 py-2"
+        >
+          Консультация
+        </button>
+      </div>
+    </section>
+
+    <footer class="footer position-relative">
+      <div class="sun"></div>
+      <div class="footer-content container">
+        <div class="main-content">
+          <div>
+            <a href="#">
+              <h1 class="logo">StyleLab</h1>
+            </a>
+          </div>
+          <nav class="block">
+            <a href="about-us.html" class="nav-link">О компании</a>
+            <a href="services.html" class="nav-link">Услуги</a>
+            <a href="#" class="nav-link">Контакты</a>
+            <a href="#" class="nav-link">Личный кабинет</a>
+          </nav>
+          <div class="block">
+            <p>
+              Контактный телефон<br /><span class="base-text"
+                >+7 (900) 123-45-67</span
+              >
+            </p>
+            <p>Email<br /><span class="base-text">hello@stylelab.ru</span></p>
+            <p>
+              Адрес<br /><span class="base-text"
+                >г. Москва, ул. Тверская, 12</span
+              >
+            </p>
+          </div>
+          <div class="block">
+            <p>Время работы</p>
+            <p class="base-text">
+              Прием заказов:<br />
+              пн-пт 10:00 - 21:00
+            </p>
+            <p class="base-text">
+              Работа офиса:<br />
+              пн-пт 10:00 - 16:00
+            </p>
+          </div>
+        </div>
+        <div class="links">
+          <p>
+            © 2025 StyleLab. Все права защищены.<br />
+            УНП: 193285921
+          </p>
+          <div class="networks">
+            <span> Соцсети: </span>
+            <div>
+              <img src="images/footer/whatsapp.svg" />
+              <img src="images/footer/telegram.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="scripts/fslightbox.js"></script>
+  </body>
+</html>
